@@ -54,39 +54,43 @@ This project is built with a **full-stack architecture** — React for the front
 ```bash
 git clone https://github.com/yourusername/highway-delite.git
 cd highway-delite
-2️⃣ Frontend Setup
-bash
-Copy code
+```
+
+### **2️⃣ Frontend Setup**
+
+```bash
 cd frontend
 npm install
+```
 Create a .env file in the frontend directory:
 
-ini
-Copy code
 VITE_API_URL=https://your-backend.onrender.com
 Run the frontend:
 
-bash
-Copy code
+```bash
 npm run dev
-3️⃣ Backend Setup
-bash
-Copy code
+```
+
+### **3️⃣ Backend Setup**
+
+```bash
 cd backend
 npm install
+```
 Create a .env file in the backend directory:
 
-ini
-Copy code
+
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 FRONTEND_URL=https://gilded-cranachan-f2455c.netlify.app
+
 Run the backend:
 
-bash
-Copy code
+```bash
 npm start
-☁️ Deployment Guide
+```
+
+### **☁️ Deployment Guide**
 Frontend (Netlify)
 Go to Netlify.
 
@@ -94,18 +98,18 @@ Import your frontend GitHub repository.
 
 Set the Build Command:
 
-bash
-Copy code
+```bash
 npm run build
+```
+
 and Publish Directory:
 
-bash
-Copy code
+```bash
 dist
+```
+
 Set the environment variable:
 
-ini
-Copy code
 VITE_API_URL=https://your-backend.onrender.com
 Deploy 🎉
 
@@ -118,14 +122,13 @@ Connect your backend GitHub repository.
 
 Add Environment Variables:
 
-ini
-Copy code
+
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 FRONTEND_URL=https://gilded-cranachan-f2455c.netlify.app
 Click Deploy 🚀
 
-🔍 How to Use
+### **🔍 How to Use**
 🔎 Search Experiences
 Use the search bar to find experiences by name or location.
 
@@ -141,29 +144,20 @@ Fill in your name, email, and optional promo code.
 
 Confirm booking — your experience is successfully reserved! ✅
 
-🌐 Live Demo
+### **🌐 Live Demo**
 🔗 Frontend: https://gilded-cranachan-f2455c.netlify.app/
 🔗 Backend (API): Hosted on Render (connected automatically to the frontend)
 
-📸 Screenshots
-🏠 Homepage
+### **📸 Screenshots**
 <img width="1918" height="860" alt="home" src="https://github.com/user-attachments/assets/ce15a2b6-9a95-4d94-9eec-6d89850e812a" />
-ℹ️ About Page
 <img width="1918" height="702" alt="about" src="https://github.com/user-attachments/assets/bef06839-ab4f-419d-9bab-70deb25078b6" />
-🔍 Search by Experience
 <img width="1918" height="848" alt="searchexp" src="https://github.com/user-attachments/assets/5b3fa186-75ad-46b8-b1f8-342b086df738" />
-📍 Search by Location
 <img width="1916" height="862" alt="searchloc" src="https://github.com/user-attachments/assets/bc877e22-67fb-4f9f-a879-b35d60a2f34b" />
-🧭 Experience Details
 <img width="1918" height="846" alt="exp" src="https://github.com/user-attachments/assets/e12f1857-df06-4840-9a63-59a4b5cb103f" />
-🧾 Booking Form
 <img width="1918" height="760" alt="booking" src="https://github.com/user-attachments/assets/f60f3d95-05e5-4c7b-bbcc-357e2472f47f" />
-✅ Booking Confirmation
 <img width="1917" height="803" alt="confirm" src="https://github.com/user-attachments/assets/dbae3e64-aed3-4610-a9f6-e2b65518835c" />
-👩‍💻 Author
-Apoorwa Priyam
-Full Stack Developer | DevOps Enthusiast
-🚀 Focused on building scalable and optimized web applications.
 
-yaml
+
+👩‍💻 Author Apoorwa Priyam Full Stack Developer \| DevOps Enthusiast 🚀
+Focused on building scalable and optimized web applications.
 Copy code
